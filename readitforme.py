@@ -1,4 +1,8 @@
 
+# Purpose: Download web pages and read aloud visible text in specific CSS DIV elements.
+# Author: P-C Markovski
+# Version: 1.0
+
 
 # Required modules for reading text aloud.
 import pyttsx3
