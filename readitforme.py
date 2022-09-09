@@ -36,8 +36,10 @@ def text_from_html(body):
 
 # Main program starts here.
 
+URL = ".."
+
 # Open the URL and return object as context manager.
-html = urllib.request.urlopen('https://www.europezigzag.com/2022/01/find-winter-sun-and-warmth-in-three-european-cities/').read()
+html = urllib.request.urlopen(URL).read()
 
 # Prase the readable text in particular visual div element.
 txt = text_from_html(html)
